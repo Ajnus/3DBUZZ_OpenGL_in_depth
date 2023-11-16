@@ -31,7 +31,7 @@ public:
 
     Vector3 operator-(const Vector3 &vec)
     {
-        return Vector3(vec.x - x, vec.y - y, vec.z - z);
+        return Vector3(x - vec.x, y - vec.y, z - vec.z);
     }
 
     Vector3 operator*=(float num)
@@ -61,7 +61,7 @@ public:
     }
 
     // produto interno
-    float Dot(Vector3 &vec)
+    float Dot(const Vector3 &vec)
     {
         return x * vec.x + y * vec.y + z * vec.z;
     }
@@ -69,7 +69,7 @@ public:
     // produto vetorial
     Vector3 operator*(const Vector3 &vec)
     {
-        return Vector3(y * vec.z - vec.y,
+        return Vector3(y * vec.z - z * vec.y,
                        z * vec.x - x * vec.z, // -(x * vec.z - z * vec.x)
                        x * vec.y - y * vec.x);
     }
@@ -111,7 +111,7 @@ public:
     // desigualdade
     bool operator!=(Vector3 &vec)
     {
-        return !(vec == *this)
+        return !(vec == *this);
     }
 
 public:
