@@ -1,3 +1,8 @@
+![New Logo](/001-introduction-to-opengl/001-introduction/Lord Vader meditates with OpenGLocron .png "Lord Vader meditates with OpenGLocron")
+# OpenGLocron intensifies...
+
+---
+
 # OpenGL In Depth
 Are you interested in learning about graphics programming using OpenGL? Have you ever wanted to create your own fully-interactive 3D applications? Now is your chance to get in tune with this popular 3D graphics API! 
 
