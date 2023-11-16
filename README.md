@@ -1,4 +1,4 @@
-![New Logo](/001-introduction-to-opengl/001-introduction/Lord Vader meditates with OpenGLocron.png "Lord Vader meditates with OpenGLocron")
+![Lord Vader](https://github.com/Ajnus/3DBUZZ_OpenGL_in_depth/blob/main/001-introduction-to-opengl/001-introduction/Lord%20Vader%20meditates%20with%20OpenGLocron.png)
 # OpenGLocron intensifies...
 
 ---
